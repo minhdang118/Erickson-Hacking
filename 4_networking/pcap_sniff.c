@@ -13,12 +13,16 @@ int main() {
 	const u_char *packet;
 	char errbuf[PCAP_ERRBUF_SIZE];
 	char *device;
+	pcap_if_t *interfaces;
 	pcap_t *pcap_handle;
 	int i;
 
-	device = pcap_lookupdev(errbuf);
-	if (device == NULL)
-		pcap_fatal("pcap_lookupdev", errbuf);
+	if (pcap_findalldevs(&interfaces, errbuf) == -1)
+		pcap_fatal("pcap_findalldevs", errbuf);
+
+	// device = interfaces->name;
+
+	device = "lo";
 
 	printf("Sniffing on device %s\n", device);
 

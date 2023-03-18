@@ -1,0 +1,2 @@
+W32_fzs.o: W32_fzs.c /usr/include/stdc-predef.h
+/usr/include/stdc-predef.h:

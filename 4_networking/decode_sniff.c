@@ -22,9 +22,9 @@ int main() {
 	if (pcap_findalldevs(&alldevs, errbuf) == -1)
 		pcap_fatal("pcap_findalldevs", errbuf);
 
-	// device = alldevs->name;
+	device = alldevs->name;
 
-	device = "lo";
+	// device = "lo";
 
 	printf("Sniffing on device %s\n", device);
 
@@ -32,7 +32,7 @@ int main() {
 	if (pcap_handle == NULL) 
 		pcap_fatal("pcap_open_live", errbuf);
 
-	pcap_loop(pcap_handle, 6, caught_packet, NULL);
+	pcap_loop(pcap_handle, 20, caught_packet, NULL);
 
 	pcap_close(pcap_handle);
 }

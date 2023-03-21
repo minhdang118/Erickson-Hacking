@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "libnet.h": "c",
+        "libnet-types.h": "c",
+        "libnet-macros.h": "c",
+        "libnet-headers.h": "c",
+        "libnet-asn1.h": "c"
+    }
+}

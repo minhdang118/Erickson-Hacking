@@ -1,6 +1,6 @@
 # Erickson-Hacking
 
-Code files for experimenting and learning from Jon Erickson's Hacking - The Art of Exploitation.
+Code files for experimenting and learning from Jon Erickson's **Hacking - The Art of Exploitation**.
 
 **2_programming**: Simple code files for debugging and assembly analysis.
 

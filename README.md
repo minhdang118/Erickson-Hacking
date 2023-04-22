@@ -2,7 +2,7 @@
 
 Code files for experimenting and learning from Jon Erickson's *Hacking - The Art of Exploitation*.
 
-*2_programming*: Simple code files for debugging and assembly analysis.
+*2_programming*: Simple code files for debugging with GDB and x86 Assembly analysis.
 
 *3_exploitation*: Vulnerabilities including buffer overflow, string formatting, shellcode injection.
 

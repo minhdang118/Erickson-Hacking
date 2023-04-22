@@ -4,6 +4,7 @@
         "config.h": "c",
         "unistd.h": "c",
         "libnet.h": "c",
-        "libnet-functions.h": "c"
+        "libnet-functions.h": "c",
+        "in.h": "c"
     }
 }

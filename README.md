@@ -4,9 +4,9 @@ Code files for experimenting and learning from Jon Erickson's **Hacking - The Ar
 
 **2_programming**: Simple code files for debugging and assembly analysis.
 
-**3_exploitation**: Vulnerabilities including buffer overflow, string formatting.
+**3_exploitation**: Vulnerabilities including buffer overflow, string formatting, shellcode injection.
 
-**4_networking**: Internet protocols, packet sniffing, port scanning, RST hijacking. Updated to the latest pcap and libnet libraries.
+**4_networking**: Internet protocols, packet sniffing, port scanning, RST hijacking. Updated to the latest pcap and libnet libraries. Updated to 64-bit virtual memory addresses.
 
 **5_shellcode**: 
 

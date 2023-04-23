@@ -1,0 +1,3 @@
+Convert shellcode file to shellcode character array: od -tx1 <shellcode-filename> | cut -c8-80 | sed -e 's/ /\\x/g'
+Dump shellcode file contents: hexdump -C <shellcode-filename> | grep --color=auto 00
+

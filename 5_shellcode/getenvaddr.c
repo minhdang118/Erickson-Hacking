@@ -10,6 +10,7 @@ int main(int argc, char *argv[]) {
 		exit(0);
 	}
 	ptr = getenv(argv[1]); /* get env var location */
+	printf("Env var location:    %p\n", ptr);
 	ptr += (strlen(argv[0]) - strlen(argv[2]))*2; /* adjust for program name */
 	printf("%s will be at %p\n", argv[1], ptr);
 }
